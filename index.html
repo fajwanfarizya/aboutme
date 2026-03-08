@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Profil Saya</title>
+    <style>
+        /* CSS: Bagian untuk mengatur tampilan */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #121212; /* Warna latar belakang gelap */
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        /* Foto Profil */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Membuat foto bulat */
+            object-fit: cover;
+            border: 4px solid #333;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        /* Nama dan Bio */
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        p.bio {
+            color: #aaaaaa;
+            font-size: 14px;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Tombol Link */
+        .link-btn {
+            display: block;
+            background-color: #1e1e1e;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border: 1px solid #333;
+            font-weight: 600;
+        }
+
+        /* Efek saat tombol disentuh/di-hover */
+        .link-btn:hover {
+            background-color: #ffffff;
+            color: #000000;
+            transform: scale(1.02); /* Sedikit membesar */
+        }
+
+        /* Ikon sosial media kecil (opsional) */
+        .social-icons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .social-icons a {
+            color: #888;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 1. GANTI FOTO DISINI -->
+        <!-- Ganti 'https://via.placeholder.com/150' dengan link foto kamu -->
+        <img src="https://photos.app.goo.gl/sp2Q3B5jenwJeepG7" alt="Foto Profil" class="profile-img">
+
+        <!-- 2. GANTI NAMA DISINI -->
+        <h1>Xinchi</h1>
+
+        <!-- 3. GANTI TULISAN BIO DISINI -->
+        <p class="bio">
+            Hi, this is about me<br>
+            Welcome!
+        </p>
+
+        <!-- 4. GANTI LINK DAN TULISAN TOMBOL DISINI -->
+        <a href="https://instagram.com/xinchi__" class="link-btn" target="_blank">
+            📸 Instagram
+        </a>
+
+        <a href="https://www.tiktok.com/@xinchixinchi?_r=1&_t=ZS-94Vaf250Xsg" class="link-btn" target="_blank">
+            🎵 TikTok
+        </a>
+
+        <a href="https://youtube.com/@xxinchii?si=9O0giy7JBfTO4u5Q" class="link-btn" target="_blank">
+            ▶️ YouTube
+        </a>
+
+        <a href="https://saweria.co/xinchi557" class="link-btn" target="_blank">
+            💲 Saweria
+        </a>
+
+        <a href="https://sociabuzz.com/xinchi" class="link-btn" target="_blank">
+            💵 Sociabuzz
+        </a>
+
+</body>
+</html>
